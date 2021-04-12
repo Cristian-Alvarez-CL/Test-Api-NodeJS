@@ -1,0 +1,28 @@
+{
+  "name": "api_test_nodejs",
+  "version": "1.0.0",
+  "description": "Api StarWars",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "docs": "jsdoc -c jsdoc.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cristian-Alvarez-CL/Test-Api-NodeJS"
+  },
+  "author": "Cristian Alvarez",
+  "bugs": {
+    "url": "https://github.com/Cristian-Alvarez-CL/Test-Api-NodeJS"
+  },
+  "homepage": "https://github.com/Cristian-Alvarez-CL/Test-Api-NodeJS#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "document": "^0.4.7",
+    "jsdoc": "^3.6.6",
+    "mocha": "^8.3.2",
+    "this": "^1.1.0"
+  }
+}
