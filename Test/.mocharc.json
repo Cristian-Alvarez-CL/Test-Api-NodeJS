@@ -1,0 +1,10 @@
+{
+  "require": ["should", "./test/config/report/register"],
+  "reporter": "./test/config/report/mochawesome",
+  "reporterOption": [
+    "reportFilename=Reporte-Pruebas-Automatizadas",
+    "reportDir=reporte_de_pruebas",
+    "reportTitle=Reporte-Automatizado",
+    "reportPageTitle=Reporte-Automatizado"
+  ]
+}
