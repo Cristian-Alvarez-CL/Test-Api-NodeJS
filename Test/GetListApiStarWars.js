@@ -17,7 +17,7 @@ describe('1 Validar Codigo de respuesta:', () => {
                 //console.log(res.body);
                 expect(res).to.have.status(200);
                 done();
-            });
+            }).timeout(2000);
     });
 });
 
