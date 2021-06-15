@@ -1,6 +1,6 @@
 
 pipeline {
-    agent { label 'master'}
+    //agent { label 'master'}
     agent { dockerfile true }
         stages {
             stage ('install') {
